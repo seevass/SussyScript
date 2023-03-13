@@ -19,13 +19,6 @@ Hello crewmates! We have some new tasks that we need to complete before the impo
 - String interpolation
 - Suspicious but detailed error messages
 
-### Sussy Types
-
-| JavaScript Type | SussyScript Types |
-| --------------- | ----------------- |
-| let             | letus             |
-| true/false      | crewmate/imposter |
-
 ## Example Tasks
 
 ### Hello World
@@ -42,113 +35,48 @@ Hello crewmates! We have some new tasks that we need to complete before the impo
 
 ### if-statements
 
-| JavaScript                                                                                     | SussyScript                                                                                  |
-| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| if (x < 10) {<br> return 1;<br>} elseif (x <20) {<br> return -1;<br>} else {<br> return 0<br>} | sus (x < 10) {<br> vote 1<br>} megasus (x <20) {<br> vote -1<br>} finalsus {<br> vote 0<br>} |
+| JavaScript                                                                                     | SussyScript                                                                                   |
+| ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| if (x < 10) {<br> return 1;<br>} elseif (x <20) {<br> return -1;<br>} else {<br> return 0<br>} | sus (x < 10) {<br> vote 1<br>} megasus (x < 20) {<br> vote -1<br>} finalsus {<br> vote 0<br>} |
 
 ### Function Declarations
 
-<table>
-<tr> <th>JavaScript</th><th>SussyScript</th><tr>
-</tr>
-<td>
-    
-```javascript
-function evenOrOdd(x){
-    return x %  2 ==  0
-}
-```
-</td>
-<td>
-    
-```
-task evenOrOdd(x) {
-    vote x % 2 == 0
-}
-```
-</td>
-</table>
+| JavaScript                                         | SussyScript                                 |
+| -------------------------------------------------- | ------------------------------------------- |
+| function evenOrOdd(x){<br> return x % 2 == 0;<br>} | task evenOrOdd(x){<br> vote x % 2 == 0<br>} |
 
-<table>
-<tr> <th>JavaScript</th><th>SussyScript</th><tr>
-</tr>
-<td>
-    
-```javascript
-function add(a, b){
-    return a + b;
-}
-```
-</td>
-<td>
-    
-```
-task add(a, b) { 
-   vote a + b
-}
-```
-</td>
-</table>
+| JavaScript                                 | SussyScript                         |
+| ------------------------------------------ | ----------------------------------- |
+| function add(a, b){<br> return a + b;<br>} | task add(a, b){<br> vote a + b<br>} |
 
 ### Loops
 
-<table>
-<tr> <th>JavaScript</th><th>SussyScript</th><tr>
-</tr>
-<td>
-    
-```javascript
-while(true){
-    break
-}
-```
-</td>
-<td>
-    
-```
-during crewmate {
-    eject
-}
-```
-</td>
-</table>
+| JavaScript                   | SussyScript                      |
+| ---------------------------- | -------------------------------- |
+| while(true) {<br> break<br>} | during crewmate {<br> eject<br>} |
 
-<table>
-<tr> <th>JavaScript</th><th>SussyScript</th><tr>
-</tr>
-<td>
-    
-```javascript
-for (var x = 0; x < 3; x++) {
-    break
-}
-```
-</td>
-<td>
-    
-```
-scan varus x = 0 till 3 {
-    eject
-}
-```
-</td>
-</table>
+| JavaScript                                    | SussyScript                              |
+| --------------------------------------------- | ---------------------------------------- |
+| for (var x = 0; x < 3; x++>) {<br> break<br>} | scan varus x = 0 till 3 {<br> eject<br>} |
 
 ### Comments
 
-<table>
-<tr> <th>JavaScript</th><th>SussyScript</th><tr>
-</tr>
-<td> 
-    
-```javascript
-// insert sussy comment
-```
-</td>
-<td>
-    
-```
-cR insert sussy comment
-```
-</td>
-</table>
+| JavaScript              | SussyScript              |
+| ----------------------- | ------------------------ |
+| //insert sussy comment! | cR insert sussy comment! |
+
+## The Developers
+
+### Mitchell Cootauco
+
+### Sebastian Cruz
+
+Yo what's good my name is Sebastian, I have never coded in my life, my favorite IDE is BlueJay, and I really have been craving tacos lately!
+
+### Erin Hurlburt
+
+### Connor Savage
+
+What's up everyone my name is Connor, I'm a coding beast, my favorite language is erlange, and I spend 23 hours a day coding in it!
+
+[Languages and Automata II Site](https://cs.lmu.edu/~ray/classes/cc/)

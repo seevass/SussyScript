@@ -42,9 +42,9 @@ Hello crewmates! We have some new tasks that we need to complete before the impo
 
 ### if-statements
 
-| JavaScript                                                                                      | SussyScript           |
-| ----------------------------------------------------------------------------------------------- | --------------------- |
-| if (x < 10) {<br> return 1;<br>} elseif (x <20) {<br> return -1;<br>} else {<br> return 0;<br>} | report "Hello world!" |
+| JavaScript                                                                                     | SussyScript                                                                                  |
+| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| if (x < 10) {<br> return 1;<br>} elseif (x <20) {<br> return -1;<br>} else {<br> return 0<br>} | sus (x < 10) {<br> vote 1<br>} megasus (x <20) {<br> vote -1<br>} finalsus {<br> vote 0<br>} |
 
 ### Function Declarations
 

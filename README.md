@@ -1,4 +1,4 @@
-<img src=./docs/SussyScriptLogo.png width="500" height="500">
+![SussyScript logo](./docs/SussyScriptLogo.png)
 
 # [SussyScript](https://github.com/connorsavage/SussyScript)
 
@@ -21,70 +21,30 @@ Hello crewmates! We have some new tasks that we need to complete before the impo
 
 ### Sussy Types
 
-<table>
-  <tr>
-    <th>Javascript Type</th>
-    <th>Sussy Types</th>
-  </tr>
-  <tr>
-    <td>boolean (true/false)</td>
-    <td>sussy (crewmate/imposter)</td>
-  </tr>
-  <tr>
-    <td>string</td>
-    <td>comm</td>
-  </tr>
-  <tr>
-    <td>Number</td>
-    <td>intus</td>
-  </tr>
-  <tr>
-    <td>Number</td>
-    <td>doublus</td>
-  </tr>
-  <tr>
-    <td>object</td>
-    <td>admin</td>
-  </tr>
-</table>
-
-### Sussy (Data) Structures
-
-<table>
-  <tr>
-    <th>Data Structure</th>
-    <th>Sussy Structures</th>
-  </tr>
-  <tr>
-    <td>Array/List</td>
-    <td>list</td>
-  </tr>
-  <tr>
-    <td>Dictionary</td>
-    <td>map</td>
-  </tr>
-</table>
+|JavaScript Type|SussyScript Types|
+|let|letus|
+|true/false|crewmate/imposter|
 
 ## Example Tasks
 
 ### Hello World
 
-<table>
-<tr> <th>JavaScript</th><th>SussyScript</th><tr>
-</tr>
-<td>
-
-```javascript
+|JavaScript|SussyScript|
+| ```
 console.log(“Hello world!”)
-```
+
+```|report "Hello world!"|
+
 
 </td>
 
 <td>
 
 ```
+
 report “Hello world!”
-```
+
+````
 
 </td>
 </table>
@@ -98,7 +58,7 @@ report “Hello world!”
 
 ```javascript
 var x = 0;
-```
+````
 
 </td>
 
@@ -226,72 +186,6 @@ for (var x = 0; x < 3; x++) {
 scan varus x = 0 till 3 {
     eject
 }
-```
-</td>
-</table>
-
-### Classes
-
-<table>
-<tr> <th>JavaScript</th><th>SussyScript</th><tr>
-</tr>
-<td>
-    
-```javascript
-class Rectangle {
-    constructor(height, width){ 
-        this.height = height;
-        this.width = width;
-    }
-    getWidth() {
-        return this.width
-    }
-    setWidth(newWidth) {
-        this.width = newWidth
-    }
-}
-let p = new Rectangle(3.0, 4);
-console.log(p.getWidth())
-p.setWidth(15)
-```
-</td>
-<td>
-    
-```
-role Rectangle {
-    build (doublus h, intus w) {
-        doublus thus.height = h
-        intus thus.width = w
-    }
-    task getWidth() -> intus {
-        vote thus.width
-    }
-    task setWidth(intus newWidth) -> none {
-        thus.width = newWidth
-    }
-}
-Rectangle p = new Rectangle(3.0, 4)
-report p.getWidth()
-p.setWidth(15)
-```
-</td>
-</table>
-
-### Data Skeletons Assignment
-
-<table>
-<tr> <th>JavaScript</th><th>SussyScript</th><tr>
-</tr>
-<td>
-    
-```javascript
-let fruits = ['Apple', 'Banana']
-```
-</td>
-<td>
-    
-```
-varus fruits = ['Apple', 'Banana']
 ```
 </td>
 </table>

@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: SussyScript
-description: This is a sick website
+remote_theme: pages-themes/time-machine@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+title: [SussyScript: The Perfect Language for Crewmates]

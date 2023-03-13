@@ -21,33 +21,18 @@ Hello crewmates! We have some new tasks that we need to complete before the impo
 
 ### Sussy Types
 
-|JavaScript Type|SussyScript Types|
-|let|letus|
-|true/false|crewmate/imposter|
+| JavaScript Type | SussyScript Types |
+| --------------- | ----------------- |
+| let             | letus             |
+| true/false      | crewmate/imposter |
 
 ## Example Tasks
 
 ### Hello World
 
-|JavaScript|SussyScript|
-| ```
-console.log(“Hello world!”)
-
-```|report "Hello world!"|
-
-
-</td>
-
-<td>
-
-```
-
-report “Hello world!”
-
-````
-
-</td>
-</table>
+| JavaScript                  | SussyScript           |
+| --------------------------- | --------------------- |
+| console.log(“Hello world!”) | report "Hello world!" |
 
 ### Assigning variables
 
@@ -58,7 +43,7 @@ report “Hello world!”
 
 ```javascript
 var x = 0;
-````
+```
 
 </td>
 

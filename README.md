@@ -10,12 +10,11 @@ Hello crewmates! We have some new tasks that we need to complete before the impo
 
 - Mix of Python & Javascript: No parenthesis in if/while/for statements, but does have brackets
 - Among Us-themed language and syntax
-- Everything is natively private
-- Static typing
+- Dynamic typing
 - Object oriented
 - Built-in data structures
 - Objects are natively passed by copy for security
-- letus can be used for type inference
+- letus/constus (let/const equivalent in JavaScript) can be used for type inference
 - String interpolation
 - Suspicious but detailed error messages
 
@@ -29,15 +28,16 @@ Hello crewmates! We have some new tasks that we need to complete before the impo
 
 ### Assigning variables
 
-| JavaScript | SussyScript |
-| ---------- | ----------- |
-| var x = 0  | letus x = 0 |
+| JavaScript  | SussyScript   |
+| ----------- | ------------- |
+| let x = 0   | letus x = 0   |
+| const y = 0 | constus y = 0 |
 
 ### if-statements
 
-| JavaScript                                                                                     | SussyScript                                                                                   |
-| ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| if (x < 10) {<br> return 1;<br>} elseif (x <20) {<br> return -1;<br>} else {<br> return 0<br>} | sus (x < 10) {<br> vote 1<br>} megasus (x < 20) {<br> vote -1<br>} finalsus {<br> vote 0<br>} |
+| JavaScript                                                                                     | SussyScript                                                                                |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| if (x < 10) {<br> return 1;<br>} elseif (x <20) {<br> return -1;<br>} else {<br> return 0<br>} | mega (x < 10) {<br> vote 1<br>} mega sus (x < 20) {<br> vote -1<br>} sus {<br> vote 0<br>} |
 
 ### Function Declarations
 
@@ -75,8 +75,10 @@ Yo what's good my name is Sebastian, I have never coded in my life, my favorite 
 
 ### Erin Hurlburt
 
+Hi my name is Erin. I just love coding. I dream about it every night.
+
 ### Connor Savage
 
-What's up everyone my name is Connor, I'm a coding beast, my favorite language is erlange, and I spend 23 hours a day coding in it!
+What's up everyone my name is Connor, I spend 23 hours a day coding!
 
 [Languages and Automata II Site](https://cs.lmu.edu/~ray/classes/cc/)
